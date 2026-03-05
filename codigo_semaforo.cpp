@@ -10,3 +10,22 @@ void setup() {
     pinMode(i, OUTPUT);
   }
 }
+
+
+
+
+void actualizarSemaforos(int v1, int a1, int r1, int az1, int v2, int a2, int r2, int az2, int v3, int a3, int r3, int az3) {
+
+// Grupo 1
+
+digitalWrite(13, v1); digitalWrite(12, a1); digitalWrite(11, r1); digitalWrite(10, az1);
+
+// Grupo 2
+
+digitalWrite(9, v2); digitalWrite(8, a2); digitalWrite(7, r2); digitalWrite(6, az2);
+
+// Grupo 3
+
+digitalWrite(5, v3); digitalWrite(4, a3); digitalWrite(3, r3); digitalWrite(2, az3);
+
+}
