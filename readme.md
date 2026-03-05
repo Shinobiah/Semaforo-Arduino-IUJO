@@ -4,10 +4,10 @@ En este proyecto tenemos 3 canales de semaforos los cuales estan configurados pa
 (es decir un canal con semaforo verde, mientras los demas permanecen bloqueados para vehiculos pero con paso peatonal)
 
 ## 👥 Integrantes del Equipo
-| **Luis Silva** |
-| **Sarath Valentina** |
+| **Luis Teran** |
+| **Sarath Mendoza** |
 | **Maria Victoria** |
-| **Eichner Luna** |
+| **Eichner Lunar** |
 | **Angel Gomez** |
 
 ## 🛠️ Detalles del Circuito
