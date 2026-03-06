@@ -14,6 +14,23 @@ void setup() {
 
 
 
+
+
+
+// --- FASE 2: Sarath Mendoza. Semaforo 2 en VERDE ---
+  // S1: Rojo+Azul / S2: Verde / S3: Rojo+Azul
+  actualizarSemaforos(0, 0, 1, 1,  1, 0, 0, 0,  0, 0, 1, 1);
+  delay(5000);
+  // S2: Amarillo
+  actualizarSemaforos(0, 0, 1, 1,  0, 1, 0, 0,  0, 0, 1, 1);
+  delay(2000);
+
+
+
+
+
+
+
 void actualizarSemaforos(int v1, int a1, int r1, int az1, int v2, int a2, int r2, int az2, int v3, int a3, int r3, int az3) {
 
 // Grupo 1
