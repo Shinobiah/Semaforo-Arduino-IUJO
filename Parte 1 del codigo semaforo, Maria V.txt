@@ -1,0 +1,16 @@
+// Definicion de los pines 
+int s1[] = {13, 12, 11, 10}; // Verde, Amarillo, Rojo, Azul
+int s2[] = {9, 8, 7, 6};    // Verde, Amarillo, Rojo, Azul
+int s3[] = {5, 4, 3, 2};    // Verde, Amarillo, Rojo, Azul
+
+void setup() {
+  // Configurar pines del 2 al 13 como salida
+  for (int i = 2; i <= 13; i++) {
+    pinMode(i, OUTPUT);
+  }
+}
+
+
+
+Estudiante: Maria V Torrealba. 35092317
+link del video: https://drive.google.com/file/d/1Kh7l2S37hanBL63Eefu9xfguxvV8ibH6/view?usp=drive_link
