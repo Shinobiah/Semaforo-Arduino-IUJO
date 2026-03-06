@@ -11,9 +11,14 @@ void setup() {
   }
 }
 
-
-
-
+void loop() {
+  // --- FASE 1: Semáforo 1 en VERDE ---
+  // S1: Verde / S2: Rojo+Azul / S3: Rojo+Azul
+  actualizarSemaforos(1, 0, 0, 0,  0, 0, 1, 1,  0, 0, 1, 1);
+  delay(5000);
+  // S1: Amarillo
+  actualizarSemaforos(0, 1, 0, 0,  0, 0, 1, 1,  0, 0, 1, 1);
+  delay(2000);
 
 
 
@@ -50,5 +55,7 @@ digitalWrite(9, v2); digitalWrite(8, a2); digitalWrite(7, r2); digitalWrite(6, a
 // Grupo 3
 
 digitalWrite(5, v3); digitalWrite(4, a3); digitalWrite(3, r3); digitalWrite(2, az3);
+
+}
 
 }
