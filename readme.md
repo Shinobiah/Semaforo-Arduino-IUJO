@@ -30,18 +30,32 @@ el flujo de los semaforos
 
 🎮// Función auxiliar para controlar los 12 LEDs sin errores
 
-void actualizarSemaforos(int v1, int a1, int r1, int az1, int v2, int a2, int r2, int az2, int v3, int a3, int r3, int az3) {
+1. La Definición 📝
+void actualizarSemaforos(int v1, int a1, int r1, int az1, ...)
 
-// Grupo 1
+void: La funcion hace el trabajo de (encender luces). Solo actúa. 🛠️
 
-digitalWrite(13, v1); digitalWrite(12, a1); digitalWrite(11, r1); digitalWrite(10, az1);
+Los nombres entre paréntesis (v1, a1, r1...): Son  variables. Cuando se usa la función, se interpreta "En v1 pon un 1, en a1 pon un 0", etc. 📥
 
-// Grupo 2
+Leyenda:
+v = Verde 🟢
 
-digitalWrite(9, v2); digitalWrite(8, a2); digitalWrite(7, r2); digitalWrite(6, az2);
+a = Amarillo 🟡
 
-// Grupo 3
+r = Rojo 🔴
 
-digitalWrite(5, v3); digitalWrite(4, a3); digitalWrite(3, r3); digitalWrite(2, az3);
+az = Azul (Peatonal) 🔵
 
-}
+2. El Cuerpo de la Función 🏗️
+
+digitalWrite(13, v1);: Le dice al Pin 13 (Verde del primer semáforo) que se ponga en el estado que se coloco (HIGH o LOW). ⚡
+
+Los Grupos: La función está organizada para que  saber exactamente qué cable se esta tocando:
+
+Grupo 1 (Pines 13 al 10): Controla el primer semáforo. 🚦
+
+Grupo 2 (Pines 9 al 6): Controla el segundo semáforo. 🚦
+
+Grupo 3 (Pines 5 al 2): Controla el tercer semáforo. 🚦
+
+
