@@ -30,7 +30,7 @@ void loop() {
   actualizarSemaforos(0, 0, 1, 1,  0, 1, 0, 0,  0, 0, 1, 1);
   delay(2000);
 
-// --- FASE 3: Semáforo 3 en VERDE ---
+// --- FASE 3: Eichner Lunar, Semáforo 3 en VERDE ---
   // S1: Rojo+Azul / S2: Rojo+Azul / S3: Verde
   actualizarSemaforos(0, 0, 1, 1,  0, 0, 1, 1,  1, 0, 0, 0);
   delay(5000);
